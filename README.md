@@ -24,16 +24,14 @@ Note that many features (renv, file structure) assume that the `.Rproject` file 
     │
     ├── setup.R            <- Initialize R env and create data directories. 
     ├── src                <- Source code for use in this project.
-    │   ├── main.R         <- main R script, calls all files in src
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.R
-    │   │
-    │   ├── features       <- Scripts to clean raw data
-    │   │   └── build_features.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
+    ├── main.R             <- main R script, calls all files in src
     │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    ├── data               <- Scripts to download or generate data
+    │   └── make_dataset.R
+    │
+    ├── features           <- Scripts to clean raw data
+    │   └── 
+    │   │
+    └── visualization      <- Scripts to create exploratory and results oriented visualizations
+        └── 
 ```

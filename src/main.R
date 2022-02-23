@@ -20,10 +20,10 @@ root <- here::here()
                   #-------------#
 
 # Toggles, 1 = run
-s1 <- 0     # DESCRIPTON
+d1 <- 0           # make_dataset.R   
 
 
 # run code
-if (s1 == 1) {source(file.path(root, "src/[name of code]"))}  
+if (s1 == 1) {source(file.path(root, "src/data/make_data.R"))}  
 
 
