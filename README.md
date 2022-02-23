@@ -1,6 +1,9 @@
 # Data Science Repo Template
 Adapted from [DECAT's Data Science Template](https://github.com/worldbank/DECAT_Data_Science_Template)
 
+## Using `.Rproject` file
+Note that many features (renv, file structure) assume that the `.Rproject` file exists. 
+
 ## Organization
 
 ```markdown
