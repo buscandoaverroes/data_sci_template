@@ -24,6 +24,6 @@ d1 <- 0           # make_dataset.R
 
 
 # run code
-if (s1 == 1) {source(file.path(root, "src/data/make_data.R"))}  
+if (d1 == 1) {source(file.path(root, "src/data/make_dataset.R"))}  
 
 
