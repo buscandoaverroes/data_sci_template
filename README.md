@@ -11,8 +11,8 @@ Note that many features (renv, file structure) assume that the `.Rproject` file 
     ├── README.md          <- The top-level README.
     ├── data
     │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   ├── working        <- Intermediate data that has been transformed.
+    │   ├── clean          <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
     ├── notebooks          <- Rmarkdown/Jupyter notebooks.
