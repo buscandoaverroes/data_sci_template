@@ -76,3 +76,4 @@
 # using different names and then you must edit the lines below accordingly.
 
 .Rproj.user
+!/**/*.Rproj
